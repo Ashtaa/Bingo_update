@@ -1,0 +1,115 @@
+.admin-container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .current-number {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #e63946;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: inline-block;
+    min-width: 100px;
+  }
+  
+  .button-container {
+    margin: 20px 0;
+  }
+  
+  .btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .btn.start-stop {
+    background-color: #28a745;
+  }
+  
+  .btn.reset {
+    background-color: #dc3545;
+  }
+  
+  .btn:hover {
+    opacity: 0.8;
+  }
+  
+  .search-container {
+    margin: 20px 0;
+  }
+  
+  .search-input {
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 250px;
+  }
+  
+  .search-btn {
+    background-color: #ff9f00;
+  }
+  
+  .search-result {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .bingo-table {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: white;
+  }
+  
+  .bingo-table th,
+  .bingo-table td {
+    border: 1px solid #333;
+    padding: 15px;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  
+  .bingo-table .letter {
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .bingo-table .selected {
+    background-color: #28a745;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .called-numbers {
+    margin-top: 20px;
+    font-size: 1.2rem;
+  }
+  
+  .called-numbers p {
+    font-weight: bold;
+    color: #e63946;
+  }
+  

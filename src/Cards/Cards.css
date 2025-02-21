@@ -1,0 +1,50 @@
+/* General Table Styling */
+table {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Bingo Header Styling */
+th {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    font-size: 1.5rem;
+    border: 1px solid #333;
+    text-align: center;
+}
+
+/* Bingo Cell Styling */
+td {
+    width: 20%;
+    padding: 15px;
+    font-size: 1.3rem;
+    text-align: center;
+    border: 1px solid #333;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+td:hover {
+    background-color: #f8f9fa;
+}
+
+/* Marked Number Styling */
+.isMarked {
+    background-color: #28a745 !important; /* Green for selected numbers */
+    color: white;
+    font-weight: bold;
+}
+
+/* Styling for the 'FREE' Space */
+td.free-space {
+    background-color: #ffc107 !important; /* Yellow for free space */
+    font-weight: bold;
+}
